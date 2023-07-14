@@ -5,7 +5,7 @@
   "description": "This is a demo app to learn cloud hosting and git actions",
   "main": "app.js",
   "scripts": {
-    "start": "dotenv -e .env; node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
