@@ -40,7 +40,7 @@ app.post('/api/v1/upload-file', upload.single('file'), (req, res) => {
   res.json({ message: 'File uploaded and saved successfully' });
 });
 app.get('/',(req,res)=>{
-  res.send(200);
+  res.send("hello");
   
 
 })
