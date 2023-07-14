@@ -39,7 +39,11 @@ app.post('/api/v1/upload-file', upload.single('file'), (req, res) => {
   // Respond with a success message
   res.json({ message: 'File uploaded and saved successfully' });
 });
+app.get('/',(req,res)=>{
+  res.send(200);
+  
 
+})
 app.all("*", (req, res) => {
     res.send(`The requested url ${req.originalUrl} dosn't exist`);
 })
